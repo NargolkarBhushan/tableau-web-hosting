@@ -1,0 +1,327 @@
+//Final website code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Access</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .dashboard {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dashboard Access</h1>
+
+    <!-- Dashboard 1 -->
+    <div class="dashboard">
+        <h2>Dashboard 1</h2>
+        <div class='tableauPlaceholder' id='viz1728197016797' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Fi/Final_Workbook2/Dashboard1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Final_Workbook2/Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Fi/Final_Workbook2/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728197016797');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='927px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- Dashboard 2 -->
+    <div class="dashboard">
+        <h2>Dashboard 2</h2>
+        <div class='tableauPlaceholder' id='viz1728197601450' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard 2' src='https://public.tableau.com/static/images/da/dashboard2_17281975822140/Dashboard2/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='dashboard2_17281975822140/Dashboard2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/da/dashboard2_17281975822140/Dashboard2/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728197601450');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='977px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- Final Dashboard -->
+    <div class="dashboard">
+        <h2>Final Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1728197802110' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Final Dashboard' src='https://public.tableau.com/static/images/fi/finalDashboard_17281977839280/FinalDashboard/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='finalDashboard_17281977839280/FinalDashboard' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/fi/finalDashboard_17281977839280/FinalDashboard/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728197802110');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='1477px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- School Contact Dashboard -->
+    <div class="dashboard">
+        <h2>School Contact Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1728198047576' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='School Contact' src='https://public.tableau.com/static/images/Sc/School_Contact/SchoolContact/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='School_Contact/SchoolContact' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Sc/School_Contact/SchoolContact/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728198047576');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='977px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- Extra (2) Dashboard -->
+    <div class="dashboard">
+        <h2>Extra (2) Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1728198294739' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Extra (2)' src='https://public.tableau.com/static/images/Ex/Extra2_17281982753460/Extra2/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Extra2_17281982753460/Extra2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Ex/Extra2_17281982753460/Extra2/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728198294739');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width='1625px';
+                vizElement.style.height='872px';
+            } else {
+                vizElement.style.width='100%';
+                vizElement.style.height='977px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- School Info Dashboard -->
+    <div class="dashboard">
+        <h2>School Info Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1728198430822' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='School Info' src='https://public.tableau.com/static/images/sc/school_info_17281984069810/Info/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='school_info_17281984069810/Info' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/sc/school_info_17281984069810/Info/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728198430822');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- School Extras Dashboard -->
+    <div class="dashboard">
+        <h2>School Extras Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1728198559495' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='School Extras' src='https://public.tableau.com/static/images/sc/school_extras/SchoolExtras/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='school_extras/SchoolExtras' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/sc/school_extras/SchoolExtras/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1728198559495');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+</body>
+</html>
